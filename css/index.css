@@ -217,7 +217,7 @@ header {
 ::placeholder {
     color: #3f3f3f;
     opacity: 0.19;
-
+    padding-left: 29px;
 }
 
 .join-input__button {
@@ -225,8 +225,9 @@ header {
     width: 25%;
     height: 30px;
     border: none;
+    box-shadow: 0 6px 9px 0 rgba(244, 214, 58, 0.59);
     background-image: linear-gradient(103deg, #fceb6f 15%, #fede60 78%);
-    background-color: #ffffff;
+    color: #ffffff;
 }
 
 .footer {

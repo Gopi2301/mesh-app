@@ -114,3 +114,45 @@ header {
     max-width: 100%;
     max-height: 100%;
 }
+
+.join__h2 {
+    font-size: 30px;
+}
+
+.join__p {
+    margin-top: 30px;
+}
+
+.join-input {
+    width: 100%;
+}
+
+.join-input__textarea {
+    padding: 0;
+    width: 100%;
+    margin: 10px auto;
+    float: none;
+}
+
+.join-input__button {
+    float: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer__img {
+    margin-top: 42px;
+}
+
+.footer-list {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.footer__p {
+    font-size: 12px;
+}
