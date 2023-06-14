@@ -4,7 +4,6 @@ body {
 
 .text {
     padding: 0 20px;
-    /* margin:0 auto; */
 }
 
 header {
@@ -31,10 +30,9 @@ header {
 }
 
 .banner-card {
-    width: 100vw;
+    width: calc(100% - 40px);
     float: none;
-    padding: 0;
-
+    padding: 0 20px;
 }
 
 .banner-card__buttons {
@@ -107,7 +105,6 @@ header {
     position: static;
     width: calc(100% - 40px);
     margin: 20px auto;
-
 }
 
 .download-card__img {
