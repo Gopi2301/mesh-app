@@ -7,8 +7,28 @@ h2 {
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'SourceSansPro-regular';
     font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+@font-face {
+    font-family: 'sourcesanspro-regular';
+    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('../fonts/source-sans-pro/SourceSansPro-Light.otf');
+}
+
+@font-face {
+    font-family: 'sourcesanspro-semibold';
+    src: url('../fonts/source-sans-pro/SourceSansPro-Semibold.otf');
 }
 
 li {
@@ -42,6 +62,7 @@ header {
 
 .navbar__menu-item {
     margin-right: 20px;
+    font-family: 'sourcesanspro-regular'
 }
 
 .navbar__menu-item>a {
@@ -57,38 +78,45 @@ header {
 }
 
 .banner-card {
-    width: 36%;
+    margin-top: 110px;
+    width: 552px;
     float: left;
 }
 
 .banner-pic {
     float: right;
+    font-size: 0;
 }
 
-.banner-card__h1 {
+.banner-card__title {
     font-size: 40px;
     letter-spacing: 1.04px;
     color: #333333;
-    font-weight: 600;
+    font-weight: normal;
+
 }
 
-.banner-card__h1>span {
-    font-weight: lighter;
+.banner-card__title>span {
+    font-family: 'SourceSansPro-Light';
+    font-size: 40px;
+    letter-spacing: 1.04px;
 }
 
-.banner-card__p {
+.banner-card__title-desc {
+    width: 522px;
+    height: 96px;
+    margin: 48px 157px 48px 0;
+    font-family: 'SourceSansPro-Light';
     font-size: 25px;
-    letter-spacing: 0.65px;
     font-weight: 300;
-    margin-top: 68px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.65px;
 }
 
 .banner-card__logo-p {
     margin-top: 5px;
-}
-
-.banner-card__buttons {
-    margin-top: 68px;
 }
 
 .banner-card__button {
@@ -99,13 +127,22 @@ header {
     background: transparent;
     font-size: 25px;
     cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn--sqr {
+    border-radius: 12px;
+    margin-left: 60px;
 }
 
 .banner-card__button-p {
     margin-left: 10px;
+    color: #333333;
 }
 
 .btn--light {
+    display: inline-block;
+    margin-top: 96px;
     background-color: #ffff;
     box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
     border: none;
@@ -114,11 +151,13 @@ header {
     margin-right: 20px;
 }
 
-.how__h2 {
+.how__title {
+    font-family: 'SourceSansPro-regular';
     text-align: center;
     font-size: 50px;
     font-weight: normal;
     letter-spacing: 1.3px;
+    color: #3f3f3f;
 }
 
 .how {
@@ -129,6 +168,7 @@ header {
     text-align: center;
     font-size: 0;
     margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 .how-cards__card {
@@ -138,9 +178,16 @@ header {
 }
 
 .how-cards__card-p {
-    margin-top: 41px;
+    font-family: 'sourcesanspro-semibold';
+    margin: 41px 0 0;
     font-size: 30px;
-    line-height: 0.8;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    text-align: center;
+    color: #3f3f3f;
 }
 
 
@@ -154,7 +201,7 @@ header {
 .download-card {
     width: 43%;
     position: absolute;
-    margin: 146px 10px;
+    margin: 110px 10px;
 }
 
 .download-card__img {
@@ -163,14 +210,26 @@ header {
 
 .download-card__p1 {
     font-size: 40px;
-    letter-spacing: 1.23px;
     font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.23px;
+    /* text-align: center; */
+    color: #3f3f3f;
 }
 
 .download-card__p2 {
     margin-top: 5px;
     color: #7a7a7a;
-    letter-spacing: .92px;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.92px;
+    /* text-align: center; */
+
 }
 
 .yellowbar {
@@ -183,8 +242,14 @@ header {
 }
 
 .download-card__p3 {
-    margin-top: 44px;
-    /* font-size: 22px; */
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.68px;
+    color: #3f3f3f;
 }
 
 .join {
@@ -192,26 +257,33 @@ header {
     margin: 0 auto;
 }
 
-.join__h2 {
+.join__title {
     margin-top: 58px;
     font-size: 50px;
     text-align: center;
 }
 
 .join__p {
-    margin-top: 50px;
+    font-size: 25px;
+    margin: 48px 0 57px;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.65px;
     text-align: center;
     color: #3f3f3f;
 }
 
 .join-input__textarea {
-    padding-left: 29px;
-    width: 60%;
-    float: left;
-    height: 30px;
-    margin-left: 20px;
-    border: none;
+    display: inline-block;
+    /* width: 30%; */
+    height: 20px;
+    margin: 0 52px 0 0;
+    padding: 21px 304px 24px 29px;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.11);
+    border: none;
 }
 
 ::placeholder {
@@ -221,10 +293,12 @@ header {
 }
 
 .join-input__button {
-    float: right;
-    width: 25%;
-    height: 30px;
+    display: inline-block;
+    padding: 21px 40px 18px 41px;
+    width: 15%;
+    height: 65px;
     border: none;
+    border-radius: 15px;
     box-shadow: 0 6px 9px 0 rgba(244, 214, 58, 0.59);
     background-image: linear-gradient(103deg, #fceb6f 15%, #fede60 78%);
     color: #ffffff;
@@ -241,7 +315,7 @@ header {
     margin-top: 84px;
 }
 
-.footer-list {
+.footer__list {
     color: #ffff;
     font-size: 20px;
     margin-top: 22px;
