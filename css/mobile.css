@@ -76,6 +76,21 @@ header {
     font-size: 30px;
 }
 
+.how-cards {
+    margin-top: 45px;
+}
+
 .how-cards__card {
     display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.how-cards__card-p {
+    font-size: 20px;
+}
+
+.how-cards__card-img {
+    max-width: 100%;
+    max-height: 100%;
 }
