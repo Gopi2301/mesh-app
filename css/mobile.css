@@ -1,0 +1,81 @@
+body {
+    width: 100vw;
+}
+
+.text {
+    padding: 0 20px;
+    /* margin:0 auto; */
+}
+
+header {
+    top: 30px;
+}
+
+.navbar__logo {
+    width: 50%
+}
+
+.navbar__menu {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.navbar__menu-item>a {
+    font-size: 10px;
+}
+
+.banner {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.banner-card {
+    width: 100vw;
+    float: none;
+    padding: 0;
+
+}
+
+.banner-card__buttons {
+    margin-top: 30px;
+}
+
+.banner-card__h1 {
+    font-size: 30px;
+}
+
+.banner-card__p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.banner-card__button {
+    padding: 10px 10px;
+    font-size: 10px;
+}
+
+.banner-pic {
+    margin-top: 30px;
+    float: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-pic__img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.how {
+    width: 100vw;
+    margin: 40px auto;
+}
+
+.how__h2 {
+    font-size: 30px;
+}
+
+.how-cards__card {
+    display: block;
+}
