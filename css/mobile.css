@@ -25,6 +25,7 @@ header {
 .banner {
     padding-top: 60px;
     text-align: center;
+    padding-left: 0;
 }
 
 .banner-card {
