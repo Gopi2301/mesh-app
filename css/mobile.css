@@ -1,5 +1,6 @@
 body {
-    width: 100vw;
+    max-width: 100vw;
+
 }
 
 .text {
@@ -15,10 +16,7 @@ header {
 }
 
 .navbar__menu {
-    display: block;
-    width: 100%;
-    margin: 10px auto;
-    padding: 10px 0 10px 50px;
+    float: right;
 }
 
 .navbar__menu-item>a {
@@ -31,6 +29,7 @@ header {
 }
 
 .banner-card {
+    margin-top: 50px;
     width: calc(100% - 40px);
     float: none;
     padding: 0 20px;
@@ -51,7 +50,7 @@ header {
 
 .banner-card__title-desc {
     font-size: 18px;
-    margin-top: 30px;
+    margin: 30px auto;
     width: 100%;
 }
 
@@ -103,17 +102,12 @@ header {
 }
 
 .how-cards__card-img {
-    max-width: 40%;
+    max-width: 35%;
     max-height: 100%;
 }
 
-.yellowbar {
+.download::before {
     display: none;
-}
-
-.download {
-    overflow: unset;
-    padding: 20px;
 }
 
 .download-card {
@@ -122,27 +116,34 @@ header {
     margin: 20px auto;
 }
 
-.download-card__p1,
+.download-card__title,
 .download-card__p2 {
     font-size: 28px;
 }
 
-.download-card__p3 {
+.download-card__desc {
     font-size: 16px;
 }
 
 .download-card__img {
-    max-width: 100%;
-    max-height: 100%;
+    float: none;
+    width: 80%;
+}
+
+.join {
+    width: 75%;
 }
 
 .join__title {
     font-size: 30px;
+    margin-top: 30px;
+
 }
 
-.join__p {
-    margin-top: 30px;
+.join__desc {
+    margin: 16px 0;
     font-size: 18px;
+    width: 100%;
 }
 
 .join-input {
@@ -159,7 +160,9 @@ header {
 
 .join-input__button {
     float: none;
-    width: 100%;
+    width: 60%;
+    height: 40px;
+    margin: 10px 20%;
     padding: 0;
     border-radius: 5px;
 }
@@ -185,6 +188,6 @@ header {
     font-size: 12px;
 }
 
-.footer__list>li {
-    margin-right: 10px;
+.footer__list>a {
+    margin-left: 20px;
 }
