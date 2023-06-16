@@ -42,6 +42,15 @@ header {
     top: 60px;
 }
 
+.hover:hover {
+    color: #4474C9;
+    box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
+}
+
+nav:hover {
+    color: #ffff;
+}
+
 .navbar__brand {
     float: left;
 }
@@ -60,6 +69,11 @@ header {
 
 .navbar__logo {
     height: 20px;
+}
+
+.logo:hover {
+    background-color: #4474C9;
+    box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
 }
 
 .container {
@@ -94,7 +108,7 @@ header {
 }
 
 .hero-pic__img {
-    max-width: 350px;
+    width: 450px;
 
 }
 
