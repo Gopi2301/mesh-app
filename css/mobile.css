@@ -2,8 +2,9 @@ body {
     max-width: 100vw;
 }
 
-.text {
+.container {
     padding: 0 20px;
+    margin: 0;
 }
 
 header {
@@ -11,7 +12,7 @@ header {
 }
 
 .navbar__logo {
-    width: 50%
+    width: 50%;
 }
 
 .navbar__menu {
@@ -22,39 +23,43 @@ header {
     font-size: 10px;
 }
 
-.banner {
-    padding-top: 60px;
-    text-align: center;
-    padding-left: 0;
+.hero {
+    display: block;
+
 }
 
-.banner-card {
-    margin-top: 50px;
+.hero-card {
+    display: block;
+    top: 100px;
+    margin: 0 20px;
     width: calc(100% - 40px);
-    float: none;
-    padding: 0 20px;
+    text-align: center;
 }
 
-.banner-card__buttons {
+.hero-pic {
+    display: block;
+}
+
+.hero-card__buttons {
     margin-top: 2px;
 
 }
 
-.banner-card__title {
+.hero-card__title {
     font-size: 21px;
 }
 
-.banner-card__title>span {
+.hero-card__title>span {
     font-size: 28px;
 }
 
-.banner-card__title-desc {
+.hero-card__title-desc {
     font-size: 18px;
     margin: 30px auto;
     width: 100%;
 }
 
-.banner-card__button {
+.button {
     display: block;
     width: 50%;
     margin: 20px auto;
@@ -85,10 +90,16 @@ header {
 
 .how__title {
     font-size: 30px;
+    margin-top: 40px;
+}
+
+.how-card {
+    margin: 0 auto;
+    width: 100%;
 }
 
 .how-cards {
-    margin-top: 45px;
+    margin: 40px auto 0;
 }
 
 .how-cards__card {
@@ -101,9 +112,13 @@ header {
     font-size: 20px;
 }
 
+.how-card__buttons {
+    margin: 45px auto 0;
+}
+
 .how-cards__card-img {
-    max-width: 35%;
-    max-height: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 .download::before {
@@ -116,6 +131,10 @@ header {
     margin: 20px auto;
 }
 
+.download-card__title {
+    margin-top: 30px;
+}
+
 .download-card__title,
 .download-card__p2 {
     font-size: 28px;
@@ -126,8 +145,9 @@ header {
 }
 
 .download-card__img {
+    margin-top: 30px;
     float: none;
-    width: 80%;
+    width: 100%;
 }
 
 .join {
@@ -151,7 +171,7 @@ header {
 }
 
 .join-input__textarea {
-    padding: 0;
+    padding: 10px 5px;
     width: 100%;
     height: 30px;
     margin: 10px auto;
@@ -169,14 +189,16 @@ header {
 
 .footer {
     margin-top: 50px;
+    text-align: center;
 }
 
 .footer__img {
     margin-top: 42px;
 }
 
-.footer-list {
-    font-size: 16px;
+.footer__list {
+    text-align: center;
+    font-size: 12px;
     line-height: 40px;
 }
 
@@ -189,5 +211,5 @@ header {
 }
 
 .footer__list>a {
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }

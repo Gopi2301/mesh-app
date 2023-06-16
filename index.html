@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 700px)">
-
+    <link rel="icon" type="image" href="./assets/favicon-32x32.png">
     <script src="https://kit.fontawesome.com/9d7b14dbf8.js" crossorigin="anonymous"></script>
     <title>Mesh App</title>
 </head>
@@ -19,10 +19,9 @@
 <body>
     <div>
         <header>
-            <nav class="text navbar">
-                <div class="navbar__brand">
-                    <a href="javascript:void(0)"><img class="navbar__logo" src="./assets/logo.png"></a>
-                </div>
+            <nav class="navbar container">
+                <a href="javascript:void(0)" class="navbar__brand"><img alt="logo" class="navbar__logo"
+                        src="./assets/logo.png"></a>
                 <ul class="navbar__menu">
                     <li class="navbar__menu-item"><a href="javascript:void(0)">Create an Account</a></li>
                     <li class="navbar__menu-item"><a href="javascript:void(0)">How it Works</a></li>
@@ -31,53 +30,57 @@
                 </ul>
             </nav>
         </header>
-        <section class=" banner">
-            <div class="  banner-card">
-                <h1 class="banner-card__title"><span class="banner-card__title--light">MeshApp - </span><br>
+        <section class="hero">
+            <article class="hero-card">
+                <h1 class="hero-card__title"><span class="hero-card__title--light">MeshApp - </span><br>
                     Play Songs Like Never Before.</h1>
-                <p class="banner-card__title-desc">Don’t leave your shopping to the last minute. The more time you have
+                <p class="hero-card__title-desc">Don’t leave your shopping to the last minute. The more time you have
                     to shop
                     around, the more you can negotiate.</p>
-                <div class="banner-card__buttons">
-                    <a href="javascript:void(0)" class="banner-card__button">
-                        <i class="fa-brands fa-apple"></i><span class="banner-card__button-p">App Store</span>
+                <div class="hero-card__buttons">
+                    <a href="javascript:void(0)" class="button">
+                        <i class="fa-brands fa-apple"></i><span class="hero-card__button-p">App Store</span>
                     </a>
-                    <a href="javascript:void(0)" class="banner-card__button btn--sqr">
+                    <a href="javascript:void(0)" class="button btn--sqr">
                         <i class="fa-brands fa-google-play"></i>
-                        <span class="banner-card__button-p">Google Play</span>
+                        <span class="hero-card__button-p">Google Play</span>
                     </a>
                 </div>
-            </div>
-            <div class="banner-pic">
-                <img class="banner-pic__img" src="./assets/iphone.png">
-            </div>
-        </section>
-        <section class="clearfix how">
-            <h2 class="clearfix how__title">How it works</h2>
+    </div>
+    <div class="hero-pic">
+        <img alt="hero image" class="hero-pic__img" src="./assets/iphone.png">
+    </div>
+    </section>
+    <section class="how">
+        <article class="how-card">
+            <h2 class="how__title">How it works</h2>
             <ul class="how-cards">
                 <li class="how-cards__card">
-                    <img class="how-cards__card-img" src="./assets/how/group-2.png" alt="">
+                    <img class="how-cards__card-img" src="./assets/how/group-2.png" alt="create account logo">
                     <p class="how-cards__card-p">Create an account</p>
                 </li>
-                <li class="how-cards__card"><img class="how-cards__card-img" src="./assets/how/group.png" alt="">
+                <li class="how-cards__card"><img alt="Favorite" class="how-cards__card-img" src="./assets/how/group.png"
+                        alt="">
                     <p class="how-cards__card-p">Favorite the playlists</p>
                 </li>
-                <li class="how-cards__card"><img class="how-cards__card-img" src="./assets/how/group-4.png" alt="">
+                <li class="how-cards__card"><img alt="listen" class="how-cards__card-img" src="./assets/how/group-4.png"
+                        alt="">
                     <p class="how-cards__card-p">Listen</p>
                 </li>
-                <div class="banner-card__buttons">
-                    <a href="javascript:void(0)" class="banner-card__button btn--light">
-                        <i class="fa-brands fa-apple"></i><span class="banner-card__button-p">App Store</span>
+                <div class="how-card__buttons">
+                    <a href="javascript:void(0)" class="button btn--light">
+                        <i class="fa-brands fa-apple"></i><span class="button-p">App Store</span>
                     </a>
-                    <a href="javascript:void(0)" class="banner-card__button btn--sqr btn--light ">
+                    <a href="javascript:void(0)" class="button btn--sqr btn--light ">
                         <i class="fa-brands fa-google-play"></i>
-                        <span class="banner-card__button-p">Google Play</span>
+                        <span class="button-p">Google Play</span>
                     </a>
                 </div>
             </ul>
-        </section>
-        <section class=" text download">
-            <!-- <div class="yellowbar"></div> -->
+        </article>
+    </section>
+    <section class="download">
+        <article class="container">
             <div class="download-card">
                 <p class="download-card__title">Download, Play, Enjoy.</p>
                 <p class="download-card__sub-title">Better than Spotify.</p>
@@ -87,40 +90,41 @@
                     afford it. Then, during World War II the government put a ban on the use of Platinum for any
                     non-military functions and the demand for White Gold skyrocketed.</p>
             </div>
-            <img class="download-card__img" src="./assets/iphones.png">
-        </section>
-        <section class="clearfix text join">
-            <p class="join__title">Join us now</p>
-            <p class="join__desc">Join us along the way of becoming great! We will send you emails containing
-                information
-                of
-                how you can help us. We don’t spam.</p>
-            <div class="join-input">
-                <input class="join-input__textarea" type="text" placeholder="Your email address">
-                <button class="join-input__button">Join us</button>
-            </div>
-        </section>
-        <footer class="text footer">
-            <img class="footer__img" src="./assets/logo-copy.png">
-            <ul class="footer__list">
-                <a href="javascript:void(0)">
-                    <li>How it works</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li>Create an account</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li>Support</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li>FaQ</li>
-                </a>
-                <a href="javascript:void(0)">
-                    <li>Twitter</li>
-                </a>
-            </ul>
-            <p class="footer__p">Copyright 2016 MeshApp. All Rights Reserved.</p>
-        </footer>
+            <img class="download-card__img" alt="iphone logo" src="./assets/iphones.png">
+        </article>
+    </section>
+    <section class=" join">
+        <p class="join__title">Join us now</p>
+        <p class="join__desc">Join us along the way of becoming great! We will send you emails containing
+            information
+            of
+            how you can help us. We don’t spam.</p>
+        <div class="join-input">
+            <input class="join-input__textarea" type="text" placeholder="Your email address">
+            <button class="join-input__button">Join us</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="javascript:void(0)"><img class="footer__img" alt="logo" src="./assets/logo-copy.png"></a>
+        <ul class="footer__list">
+            <a href="javascript:void(0)">
+                <li class="footer__list-text">How it works</li>
+            </a>
+            <a href="javascript:void(0)">
+                <li class="footer__list-text">Create an account</li>
+            </a>
+            <a href="javascript:void(0)">
+                <li class="footer__list-text">Support</li>
+            </a>
+            <a href="javascript:void(0)">
+                <li class="footer__list-text">FaQ</li>
+            </a>
+            <a href="javascript:void(0)">
+                <li class="footer__list-text">Twitter</li>
+            </a>
+        </ul>
+        <p class="footer__p">Copyright 2016 MeshApp. All Rights Reserved.</p>
+    </footer>
     </div>
 </body>
 
