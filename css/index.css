@@ -35,7 +35,7 @@ header ::after {
     clear: both;
 }
 
-header {
+.header {
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -47,9 +47,6 @@ header {
     box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
 }
 
-nav:hover {
-    color: #ffff;
-}
 
 .navbar__brand {
     float: left;
