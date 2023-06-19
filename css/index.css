@@ -29,17 +29,17 @@ a {
     src: url('../fonts/source-sans-pro/SourceSansPro-Semibold.otf');
 }
 
-header ::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
 .header {
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-    top: 60px;
+    padding-top: 60px;
+    background-image: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
+
+
 }
 
 .hover:hover {
@@ -47,13 +47,16 @@ header ::after {
     box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
 }
 
-
 .navbar__brand {
-    float: left;
+    display: inline-block;
+    margin-right: auto;
+    vertical-align: middle;
+
 }
 
 .navbar__menu {
-    float: right;
+    display: inline-block;
+    margin-left: calc(100% - 420px);
 }
 
 .navbar__menu-item {
@@ -61,7 +64,11 @@ header ::after {
 }
 
 .navbar__brand {
-    line-height: 1;
+    line-height: .5;
+}
+
+.menu {
+    display: none;
 }
 
 .navbar__logo {
@@ -74,21 +81,18 @@ header ::after {
 }
 
 .container {
-    margin: 0 100px;
+    padding: 0 100px;
 }
 
 .hero {
-    position: relative;
-    height: 100vh;
+    height: calc(100vh - 79px);
     background-image: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
+    position: relative;
 }
 
 .hero-card {
-    position: absolute;
-    bottom: 90px;
-    max-width: 522px;
-    margin-left: 100px;
-
+    padding-top: 200px;
+    width: 522px;
 }
 
 .hero-pic {
@@ -113,7 +117,7 @@ header ::after {
     margin-right: 20px;
 }
 
-.navbar__menu :last-child {
+.navbar__menu>li:last-child {
     margin-right: 0;
 }
 
@@ -156,7 +160,7 @@ header ::after {
     border-radius: 12px;
 }
 
-.hero-card__button-p {
+.button-p {
     margin-left: 10px;
 }
 

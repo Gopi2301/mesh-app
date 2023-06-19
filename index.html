@@ -22,7 +22,8 @@
             <nav class="navbar container">
                 <a href="javascript:void(0)" class="navbar__brand hover"><img alt="logo" class="logo "
                         src="./assets/logo.png"></a>
-                <ul class="navbar__menu">
+                <button onclick="myFunction(this)" class="menu"><i class="fa-solid fa-bars"></i></button>
+                <ul id="menus" class="navbar__menu">
                     <li class="navbar__menu-item "><a href="javascript:void(0)">
                             <p class="hover">How it Works</p>
                         </a></li>
@@ -36,9 +37,10 @@
                             <p class="hover">Create an Account</p>
                         </a></li>
                 </ul>
+
             </nav>
         </header>
-        <section class="hero">
+        <section class="hero container">
             <div class="hero-card">
                 <h1 class="hero-card__title"><span class="hero-card__title--light">MeshApp - </span><br>
                     Play Songs Like Never Before.</h1>
@@ -47,11 +49,11 @@
                     around, the more you can negotiate.</p>
                 <div class="hero-card__buttons">
                     <a href="javascript:void(0)" class="button hover">
-                        <i class="fa-brands fa-apple"></i><span class="hero-card__button-p">App Store</span>
+                        <i class="fa-brands fa-apple"></i><span class="button-p">App Store</span>
                     </a>
                     <a href="javascript:void(0)" class="button btn--sqr hover">
                         <i class="fa-brands fa-google-play"></i>
-                        <span class="hero-card__button-p">Google Play</span>
+                        <span class="button-p">Google Play</span>
                     </a>
                 </div>
             </div>
@@ -136,6 +138,7 @@
             <p class="footer__p">Copyright 2016 MeshApp. All Rights Reserved.</p>
         </footer>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

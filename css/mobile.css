@@ -7,37 +7,72 @@ body {
     margin: 0;
 }
 
-header {
-    top: 30px;
+.header {
+    padding-top: 12px;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: calc(100% - 60px);
+    background: transparent;
+    border: none;
+}
+
+.navbar__brand {
+    display: inline-block;
 }
 
 .navbar__logo {
     width: 50%;
 }
 
-.navbar__menu {
-    float: right;
+img.logo {
+    width: 28px;
 }
 
-.navbar__menu-item>a {
-    font-size: 10px;
+.navbar__menu {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar__menu li {
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.hover {
+    margin-top: 20px;
+    font-size: 12px;
 }
 
 .hero {
     display: block;
-
+    height: 640px;
 }
 
 .hero-card {
     display: block;
-    top: 100px;
+    padding-top: 60px;
     margin: 0 20px;
     width: calc(100% - 40px);
     text-align: center;
 }
 
+.button-p {
+    font-size: 12px;
+}
+
 .hero-pic {
     display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero-pic__img {
+    width: 200px;
 }
 
 .hero-card__buttons {
@@ -151,6 +186,7 @@ header {
 }
 
 .join {
+    margin-top: 30px;
     width: 75%;
 }
 
