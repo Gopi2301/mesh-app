@@ -41,6 +41,8 @@ img.logo {
     display: block;
     margin: 0 auto;
     text-align: right;
+    margin-top: 20px;
+
 }
 
 .hover {
