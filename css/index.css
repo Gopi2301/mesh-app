@@ -36,15 +36,42 @@ a {
 }
 
 .header {
-    padding-top: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 60px 0 20px;
     background-image: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
-
 
 }
 
-.hover:hover {
-    color: #4474C9;
-    box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
+.hover {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    bottom: -5px;
+    background-color: #7CAAFC;
+    transition: 0.5s;
+    margin: 0 auto;
+}
+
+.hover:hover::after {
+    width: 100%;
+}
+
+.logo-hover {
+    transition: all .2s ease-in-out;
+}
+
+.logo-hover:hover {
+    transform: scale(1.5);
 }
 
 .navbar__brand {
@@ -75,9 +102,10 @@ a {
     height: 20px;
 }
 
-.logo:hover {
-    background-color: #4474C9;
+.navbar-onchange {
+    background-color: #f8f8f8;
     box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
+    border: solid 2px #3e3e3e;
 }
 
 .container {
@@ -85,7 +113,7 @@ a {
 }
 
 .hero {
-    height: calc(100vh - 79px);
+    height: calc(100vh + 79px);
     background-image: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
     position: relative;
 }
