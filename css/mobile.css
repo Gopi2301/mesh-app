@@ -237,8 +237,11 @@ img.logo {
     line-height: 40px;
 }
 
-.footer__list>li {
+/* .footer__list>li {
     margin-right: 20px;
+} */
+.footer__lists>li {
+    margin-right: 14px;
 }
 
 .footer__p {
