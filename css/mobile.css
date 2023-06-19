@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    padding-top: 12px;
+    padding-top: 30px;
 }
 
 .menu {
@@ -44,7 +44,6 @@ img.logo {
 }
 
 .hover {
-    margin-top: 20px;
     font-size: 12px;
 }
 
@@ -238,14 +237,15 @@ img.logo {
     line-height: 40px;
 }
 
+.footer__list>li {
+    margin-right: 20px;
+}
+
 .footer__p {
     font-size: 12px;
 }
 
-.footer__list {
+.footer__list-text {
     font-size: 12px;
-}
-
-.footer__list>a {
-    /* margin-left: 20px; */
+    margin-right: 20px;
 }
