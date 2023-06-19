@@ -32,7 +32,7 @@ img.logo {
 }
 
 .navbar__menu {
-    display: block;
+    display: none;
     margin: 0 auto;
     text-align: center;
 }
