@@ -256,6 +256,11 @@ a {
     display: table;
 }
 
+.join-input__button-text {
+    color: #ffff;
+    font-weight: bold;
+}
+
 .download {
     margin-top: 60px;
     background-color: #f8f8f8;
