@@ -93,6 +93,7 @@ body {
 
 .hero-pic__img {
     width: 200px;
+    height: 100%;
 }
 
 .hero-card__buttons {
