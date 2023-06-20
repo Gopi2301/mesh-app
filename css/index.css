@@ -51,6 +51,7 @@ a {
 
 .hover:hover {
     color: #E8B94D;
+    font-weight: 900;
 
 }
 
@@ -58,9 +59,9 @@ a {
     content: '';
     position: absolute;
     left: 0;
-    height: 2px;
+    height: 3px;
     width: 0%;
-    bottom: -5px;
+    bottom: -6px;
     background-color: #E6C957;
     transition: 0.5s;
     margin: 0 auto;
@@ -331,7 +332,7 @@ a {
 .join-input__textarea {
     border: none;
     height: 72px;
-    width: 500px;
+    width: 471px;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.11);
     background-color: #fff;
 }
@@ -340,6 +341,10 @@ a {
     opacity: 0.19;
     padding-left: 29px;
     font-size: 20px;
+}
+
+.join-input__textarea:placeholder-shown {
+    padding-left: 29px;
 }
 
 .join-input__textarea:focus {

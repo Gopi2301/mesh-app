@@ -228,7 +228,7 @@ body {
 
 .join-input__textarea {
     padding: 10px 5px;
-    width: 100%;
+    width: calc(100% - 29px);
     height: 30px;
     margin: 10px auto;
     float: none;
