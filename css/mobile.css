@@ -9,7 +9,11 @@ body {
 
 .header {
     padding-top: 30px;
-    position: static;
+    position: fixed;
+}
+
+.fa-brands {
+    font-size: 12px;
 }
 
 .menu {
@@ -29,7 +33,7 @@ body {
     width: 50%;
 }
 
-img.logo {
+.navbar__brand>.logo {
     width: 28px;
 }
 
@@ -37,7 +41,6 @@ img.logo {
     position: absolute;
     z-index: 1;
     right: 0;
-    /* padding-right: 20px; */
     background-image: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
     width: 100%;
     display: block;
@@ -51,7 +54,7 @@ img.logo {
     opacity: 1;
 }
 
-.navbar__menu li {
+.navbar__menu>.navbar__menu-item {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -70,13 +73,13 @@ img.logo {
 
 .hero-card {
     display: block;
-    padding-top: 60px;
+    padding-top: 80px;
     margin: 0 20px;
     width: calc(100% - 40px);
     text-align: center;
 }
 
-.button-p {
+.button-text {
     font-size: 12px;
     vertical-align: middle;
 }
@@ -100,7 +103,7 @@ img.logo {
     font-size: 21px;
 }
 
-.hero-card__title>span {
+.hero-card__title>.hero-card__title--light {
     font-size: 28px;
 }
 
@@ -254,7 +257,7 @@ img.logo {
     line-height: 40px;
 }
 
-.footer__lists>li {
+.footer__lists>.footer__list-text {
     margin-right: 14px;
 }
 

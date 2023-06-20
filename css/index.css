@@ -144,8 +144,9 @@ a {
     margin-right: 20px;
 }
 
-.navbar__menu>li:last-child {
+.navbar__menu>.navbar__menu-item:last-child {
     margin-right: 0;
+
 }
 
 .hero-card__title {
@@ -187,7 +188,7 @@ a {
     border-radius: 12px;
 }
 
-.button-p {
+.button-text {
     margin-left: 10px;
 }
 
@@ -208,7 +209,7 @@ a {
     text-align: center;
 }
 
-.how-cards>li {
+.how-cards>.how-cards__card {
     display: inline-block;
 }
 
@@ -218,7 +219,7 @@ a {
     font-size: 0;
 }
 
-.how-cards>li:first-child {
+.how-cards>.how-cards__card:first-child {
     margin-left: 0;
 }
 
@@ -332,7 +333,7 @@ a {
     height: 72px;
     width: 500px;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.11);
-    background-color: var(--white);
+    background-color: #fff;
 }
 
 .join-input__textarea::placeholder {
@@ -377,7 +378,7 @@ a {
     margin-top: 22px;
 }
 
-.footer__lists>li {
+.footer__lists>.footer__list-text {
     margin-right: 30px;
     display: inline-block;
 }
@@ -386,7 +387,7 @@ a {
     margin-left: 0;
 }
 
-.footer__list-text>a {
+.footer__list-text>.hover {
     color: #ffff;
 }
 
