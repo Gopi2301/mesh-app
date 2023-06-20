@@ -27,7 +27,7 @@ const headerText = document.querySelectorAll('.hover');
 function headerFix() {
     console.log(scrollY);
     if (scrollY > innerHeight) {
-        header.style.opacity = 0.9;
+        // header.style.opacity = 0.9;
         header.classList.add('navbar-onchange');
         headerText.style.color = "#fede60";
     }
