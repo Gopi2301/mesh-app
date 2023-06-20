@@ -9,9 +9,11 @@ body {
 
 .header {
     padding-top: 30px;
+    position: static;
 }
 
 .menu {
+    cursor: pointer;
     display: inline-block;
     vertical-align: bottom;
     margin-left: calc(100% - 60px);
@@ -32,9 +34,22 @@ img.logo {
 }
 
 .navbar__menu {
-    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    padding-right: 20px;
+    background-color: #E6C957;
+    width: 100%;
+    display: block;
     margin: 0 auto;
     text-align: center;
+    opacity: 0;
+}
+
+.menu-open {
+    transition: transform 0.2s, opacity 1s;
+    transform: translateY(10%);
+    opacity: 1;
 }
 
 .navbar__menu li {
@@ -246,7 +261,7 @@ img.logo {
     margin-right: 14px;
 }
 
-.footer__p {
+.footer__credits {
     font-size: 12px;
 }
 
