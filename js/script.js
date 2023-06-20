@@ -25,18 +25,14 @@ function headerFix() {
     console.log(scrollY);
     if (scrollY > innerHeight) {
         header.style.opacity = 0.9;
-        // header.style.position = "fixed";
         header.classList.add('navbar-onchange');
         // console.log('trigger')
         // console.log(window.pageYOffset);
         // console.log(window.innerHeight);
 
-
     }
     else {
         header.classList.remove('navbar-onchange')
-        // header.style.position = "static";
-        // header.style.opacity = '1';
 
     }
 }
