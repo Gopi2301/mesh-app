@@ -2,15 +2,18 @@ const menu = document.querySelector(".menu");
 
 // Menu Toggle Logic
 menu.addEventListener('click', myFunction)
+const menuIcon = document.querySelector('#icon');
 var menuClose = true;
 function myFunction() {
     var menu = document.getElementById("menus");
     menuClose = !menuClose;
     if (menuClose) {
         menu.classList.add('menu-open');
+        menuIcon.setAttribute("class", "fa-sharp fa-solid fa-xmark");
     }
     else {
         menu.classList.remove('menu-open')
+        menuIcon.setAttribute("class", "fa-solid fa-bars");
     }
     console.log(menuClose);
 
