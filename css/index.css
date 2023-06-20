@@ -50,7 +50,7 @@ a {
 }
 
 .hover:hover {
-    color: #D8AF29;
+    color: #E8B94D;
 
 }
 
@@ -80,7 +80,7 @@ a {
     display: inline-block;
     margin-right: auto;
     vertical-align: middle;
-
+    line-height: .5;
 }
 
 .navbar__menu {
@@ -92,10 +92,6 @@ a {
     display: inline-block;
 }
 
-.navbar__brand {
-    line-height: .5;
-}
-
 .menu {
     display: none;
 }
@@ -105,6 +101,7 @@ a {
 }
 
 .navbar-onchange {
+    color: #fede60;
     background-image: none;
     background-color: #f8f8f8;
     box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
@@ -391,14 +388,9 @@ a {
 
 .footer__list-text>a {
     color: #ffff;
-    /* display: inline-block; */
 }
 
 .footer__credits {
     margin-top: 35px;
     color: #8f8f8f;
 }
-
-/* .footer-logo {
-    margin-top: 50px;
-} */

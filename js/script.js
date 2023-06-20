@@ -18,18 +18,14 @@ function myFunction() {
 // Header fix on top 
 window.onscroll = function () { headerFix() }
 
-const header = document.querySelector('.header')
-
-const headerText = document.querySelectorAll('.hover')
+const header = document.querySelector('.header');
+const headerText = document.querySelectorAll('.hover');
 function headerFix() {
     console.log(scrollY);
     if (scrollY > innerHeight) {
         header.style.opacity = 0.9;
         header.classList.add('navbar-onchange');
-        // console.log('trigger')
-        // console.log(window.pageYOffset);
-        // console.log(window.innerHeight);
-
+        headerText.style.color = "#fede60";
     }
     else {
         header.classList.remove('navbar-onchange')
