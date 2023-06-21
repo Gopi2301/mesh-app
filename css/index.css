@@ -50,7 +50,7 @@ a {
 }
 
 .hover:hover {
-    color: #E8B94D;
+    /* color: #ccc3b3; */
     font-weight: 900;
 
 }
@@ -62,7 +62,7 @@ a {
     height: 3px;
     width: 0%;
     bottom: -6px;
-    background-color: #E6C957;
+    background-color: #ccc3b3;
     transition: 0.5s;
     margin: 0 auto;
 }
