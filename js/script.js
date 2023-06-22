@@ -30,8 +30,6 @@ function headerFix() {
     if (scrollY > innerHeight) {
         header.classList.add('navbar-onchange');
         navMenu.classList.add('menu-scroll');
-
-
     }
     else {
         header.classList.remove('navbar-onchange');

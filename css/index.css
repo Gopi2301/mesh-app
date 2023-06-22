@@ -111,6 +111,8 @@ a {
     background-image: none;
     background: #f8f8f8;
     box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
+    /* transition: opacity 0.8s ease-in;
+    opacity: 1; */
 }
 
 .container {
