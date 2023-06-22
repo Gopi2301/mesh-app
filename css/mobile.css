@@ -49,18 +49,25 @@ body {
     position: absolute;
     z-index: 1;
     right: 0;
+    top: -170px;
     background: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
     width: 100%;
     display: block;
     margin: 0 auto;
     text-align: center;
     opacity: 0;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .menu-open {
+    top: 70px;
     transition: opacity 0.8s;
     opacity: 1;
+
+}
+
+.menu-close {
+    display: none;
 }
 
 .menu-scroll {

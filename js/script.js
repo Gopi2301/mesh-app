@@ -29,13 +29,13 @@ function headerFix() {
     console.log(scrollY);
     if (scrollY > innerHeight) {
         header.classList.add('navbar-onchange');
-        navMenu.classList.add('menu-scroll')
+        navMenu.classList.add('menu-scroll');
 
 
     }
     else {
-        header.classList.remove('navbar-onchange')
-        navMenu.classList.remove('menu-scroll')
+        header.classList.remove('navbar-onchange');
+        navMenu.classList.remove('menu-scroll');
 
     }
 }
