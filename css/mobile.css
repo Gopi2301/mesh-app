@@ -25,6 +25,10 @@ body {
     border: none;
 }
 
+.hover::after {
+    display: none;
+}
+
 .navbar__brand {
     display: inline-block;
 }
@@ -37,11 +41,15 @@ body {
     width: 28px;
 }
 
+.hero-card__buttons-icon {
+    font-size: 20px;
+}
+
 .navbar__menu {
     position: absolute;
     z-index: 1;
     right: 0;
-    background-image: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
+    background: linear-gradient(108deg, #fceb6f 17%, #fede60 77%);
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -53,6 +61,10 @@ body {
 .menu-open {
     transition: opacity 0.8s;
     opacity: 1;
+}
+
+.menu-scroll {
+    background: #f8f8f8;
 }
 
 .navbar__menu>.navbar__menu-item {
@@ -69,7 +81,7 @@ body {
 
 .hero {
     display: block;
-    height: 650px;
+    height: 655px;
 }
 
 .hero-card {
@@ -80,8 +92,8 @@ body {
     text-align: center;
 }
 
-.button-text {
-    font-size: 12px;
+.hero-card__button-text {
+    font-size: 16px;
     vertical-align: middle;
 }
 

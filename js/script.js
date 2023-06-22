@@ -24,15 +24,18 @@ window.onscroll = function () { headerFix() }
 
 const header = document.querySelector('.header');
 const headerText = document.querySelectorAll('.hover');
+const navMenu = document.querySelector('#menus');
 function headerFix() {
     console.log(scrollY);
     if (scrollY > innerHeight) {
-        // header.style.opacity = 0.9;
         header.classList.add('navbar-onchange');
-        headerText.style.color = "#fede60";
+        navMenu.classList.add('menu-scroll')
+
+
     }
     else {
         header.classList.remove('navbar-onchange')
+        navMenu.classList.remove('menu-scroll')
 
     }
 }
