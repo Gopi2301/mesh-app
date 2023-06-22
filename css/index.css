@@ -78,6 +78,7 @@ a {
 .button:hover {
     background: #fede60;
     box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.08);
+    color: #f8f8f8;
 
 }
 
@@ -194,6 +195,10 @@ a {
 }
 
 .hero-card__button-text {
+    margin-left: 10px;
+}
+
+.button-text {
     margin-left: 10px;
 }
 
@@ -348,12 +353,19 @@ a {
 
 .join-input__textarea::placeholder {
     opacity: 0.19;
-    padding-left: 29px;
+
     font-size: 20px;
 }
 
-.join-input__textarea:placeholder-shown {
+.join-input__button-text:hover {
+    color: #3f3f3f;
+}
+
+.join-input__textarea:placeholder-shown,
+[type='text'] {
     padding-left: 29px;
+    font-size: 16px;
+    color: #3f3f3f;
 }
 
 .join-input__textarea:focus {
